@@ -10,7 +10,7 @@
                     <link rel="stylesheet" href="https://static.imovlr.com/static/full_editor.css" type="text/css">
     </meta>
 <body>
-    <form id="editor_form" method="POST" action="/edit/{{ printf "%s" .Filename }}">
+    <form id="editor_form" method="POST" action={{ .Filename }}>
         <textarea id="editor" name="content">{{ printf "%s" .Body }}</textarea>
         <input type="submit">
         <a href="/">[ List of Files ]</a>

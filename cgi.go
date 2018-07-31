@@ -5,6 +5,7 @@ import (
     "log"
 
     _ "github.com/fredericorecsky/informatiestroom/view/page"
+    _ "github.com/fredericorecsky/informatiestroom/edit/page"
 )
 
 func main () {
